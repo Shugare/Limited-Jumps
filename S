@@ -1,0 +1,67 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Limited jump", "BloodTheme")
+
+local Tab = Window:NewTab("Farm")
+
+
+local Section = Tab:NewSection("for jump/badge/Wins")
+Section:NewButton("11 Studs Long Jump", "Give you 25 jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-936.521912, 570.26001, 1117.48547, -0.934021771, -0.0279090218, 0.356124192, -0.0450618863, 0.998184681, -0.0399591662, -0.354362518, -0.0533703566, -0.933583856)
+end)
+
+Section:NewButton("10 Studs Wall", "Give you 25 Jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1347.12732, 614.546936, 1260.53577, 0.765874207, -0.111254409, -0.633292317, 1.22974882e-07, 0.984917164, -0.173026383, 0.64299047, 0.132516369, 0.754322648)
+end)
+
+Section:NewButton("25 Studs Wall", "Give you 75 Jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1921.75244, 553.895935, 1052.60413, 0.542338729, 0.1597597, -0.824830651, -0.0567615107, 0.986478508, 0.15374738, 0.838240325, -0.0365645215, 0.544073701)
+end)
+
+Section:NewButton("50 Studs Wall", "Give you 100 Jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2017.76184, 562.120789, 846.23114, -0.868319333, -0.00292726234, -0.495996892, -0.0244016144, 0.999023855, 0.0368227884, 0.495404929, 0.0440770648, -0.867543161)
+end)
+
+Section:NewButton("Glass Bridge", "Give you 50 Jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1366.47534, 559.401306, 444.312775, 0.632927775, -0.12883015, 0.763416827, 0.011881222, 0.987558186, 0.156804666, -0.774119675, -0.0901757032, 0.626583636)
+end)
+
+Section:NewButton("Snow Conveyor", "Give you 50 Jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1212.79907, 568.15686, -187.914658, 0.518292189, -0.826117039, 0.221142009, 0.228033081, 0.382720292, 0.895279884, -0.824241519, -0.413588911, 0.386742979)
+end)
+
+Section:NewButton("Try Not Jumping Challenge", "Give you 75 jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-888.065735, 989.55658, 60.2904816, 0.161549658, 0.103054032, -0.981469095, 0.0123535013, 0.994243562, 0.106428735, 0.98678726, -0.0293181054, 0.159346625)
+end)
+
+Section:NewButton("2k stair", "---", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-607.793762, 2551.92041, 986.50354, -0.970303833, -3.30627543e-08, -0.241889477, -2.00184402e-08, 1, -5.63843763e-08, 0.241889477, -4.98677259e-08, -0.970303833)
+end)
+
+Section:NewButton("Spider Mount", "---", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-243.806396, 757.170532, -325.224792, -0.284895957, 4.23304636e-09, 0.95855844, 5.42435785e-08, 1, 1.17058381e-08, -0.95855844, 5.53305846e-08, -0.284895957)
+end)
+
+Section:NewButton("Apple Obby", "Give you 50 Jumps", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-746.213196, 582.210632, 1315.27466, -0.94919318, 0.0337253325, 0.312881649, 0.111615591, 0.965682507, 0.234519318, -0.29423508, 0.257526606, -0.920383513)
+end)
+
+local Tab = Window:NewTab("Auto farm")
+
+
+local Section = Tab:NewSection("Farm Auto")
+
+
+Section:NewToggle("Auto farm jump", "Auto farm", function(state) if state then _G.on = true while _G.on do 
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2017.76184, 562.120789, 846.23114, -0.868319333, -0.00292726234, -0.495996892, -0.0244016144, 0.999023855, 0.0368227884, 0.495404929, 0.0440770648, -0.867543161) 
+    wait(1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-888.065735, 989.55658, 60.2904816, 0.161549658, 0.103054032, -0.981469095, 0.0123535013, 0.994243562, 0.106428735, 0.98678726, -0.0293181054, 0.159346625)
+    wait(1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1921.75244, 553.895935, 1052.60413, 0.542338729, 0.1597597, -0.824830651, -0.0567615107, 0.986478508, 0.15374738, 0.838240325, -0.0365645215, 0.544073701)
+    wait(6)
+end else _G.on = false end end)
+
+local Tab = Window:NewTab("Credit")
+
+local Section = Tab:NewSection("Roblox Name:C6_6U")
+
+local Section = Tab:NewSection("Discord not tell :)")
